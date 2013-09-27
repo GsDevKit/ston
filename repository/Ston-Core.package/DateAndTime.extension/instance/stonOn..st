@@ -4,4 +4,4 @@ stonOn: stonWriter
 	
 	stonWriter writeObject: self listSingleton: 
 		(String streamContents: [ :stream |
-			self printOn: stream ])
+			self printOn: stream withLeadingSpace: false ])

@@ -10,7 +10,9 @@
 		"objects",
 		"classes",
 		"unresolvedReferences",
-		"stringStream" ],
+		"stringStream",
+		"allowComplexMapKeys",
+		"stack" ],
 	"name" : "STONReader",
 	"pools" : [
 		 ],

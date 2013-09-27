@@ -6,3 +6,4 @@ parseClass
 			stream nextPut: readStream next ] ].
 	self consumeWhitespace.
 	^ self lookupClass: className asSymbol
+	

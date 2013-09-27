@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'STON-Tests'!
+SystemOrganization addCategory: #'STON-Tests'!
