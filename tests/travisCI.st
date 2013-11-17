@@ -6,7 +6,7 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 Metacello new
   configuration: 'Ston';
   version: #stable;
-  repository: 'filetree://', gitPath, '/repository';
+  repository: 'filetree://', gitPath;
   load: 'Tests'.
 
 "Run the tests"
