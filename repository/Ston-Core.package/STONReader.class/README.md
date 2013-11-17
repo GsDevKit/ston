@@ -1,1 +1,0 @@
-STONReader materializes objects using the Smalltalk Object Notation format.

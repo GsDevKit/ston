@@ -9,6 +9,21 @@ As its name suggests, it is based on JSON (Javascript Object Notation).
 It adds symbols as a primitive value, class tags for object values and references. 
 Implementations for Pharo Smalltalk, Squeak and Gemstone Smalltalk are available.
 
+### Installation
+
+```Smalltalk
+Metacello new
+	configuration: 'Ston';
+	version: #'stable';
+	repository: 'github://dalehenrich/ston:configuration';
+	load.
+```
+
+*See the [Metacello installation instructions](https://github.com/dalehenrich/metacello-work/blob/master/README.md) 
+for details on installing Metacello.*
+
+### TravisCI Status
+**pharo** : [![Build Status](https://secure.travis-ci.org/dalehenrich/ston.png?branch=pharo)](http://travis-ci.org/dalehenrich/ston) 
 
 ## Please read the [Smalltalk Object Notation](https://github.com/svenvc/ston/blob/master/ston-paper.md) paper
 
