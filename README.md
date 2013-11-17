@@ -15,16 +15,18 @@ Implementations for Pharo Smalltalk, Squeak and Gemstone Smalltalk are available
 Metacello new
 	configuration: 'Ston';
 	version: #'stable';
-	repository: 'github://dalehenrich/ston:configuration';
+	repository: 'github://glassdb/ston:configuration';
 	load.
 ```
 
-*See the [Metacello installation instructions](https://github.com/dalehenrich/metacello-work/blob/master/README.md) 
+*See the [Metacello installation instructions](https://github.com/glassdb/metacello-work/blob/master/README.md) 
 for details on installing Metacello.*
 
 ### TravisCI Status
-**pharo** : [![Build Status](https://secure.travis-ci.org/dalehenrich/ston.png?branch=pharo)](http://travis-ci.org/dalehenrich/ston) 
 
+**configuration** : [![Build Status](https://secure.travis-ci.org/glassdb/ston.png?branch=configuration)](http://travis-ci.org/glassdb/ston) 
+
+**gemstone** : [![Build Status](https://secure.travis-ci.org/glassdb/ston.png?branch=gemstone)](http://travis-ci.org/glassdb/ston) 
 ## Please read the [Smalltalk Object Notation](https://github.com/svenvc/ston/blob/master/ston-paper.md) paper
 
 
