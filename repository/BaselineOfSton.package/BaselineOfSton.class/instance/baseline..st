@@ -4,9 +4,9 @@ baseline: spec
     spec
         for: #'common'
         do: [ 
-            spec package: 'Ston-Core'.
-            spec package: 'Ston-Tests' with: [ spec requires: 'Ston-Core' ].
+            spec package: 'STON-Core'.
+            spec package: 'STON-Tests' with: [ spec requires: 'STON-Core' ].
             spec
                 group: 'default' with: #('Core');
-                group: 'Core' with: #('Ston-Core');
-                group: 'Tests' with: #('Ston-Tests') ]
+                group: 'Core' with: #('STON-Core');
+                group: 'Tests' with: #('STON-Tests') ]
