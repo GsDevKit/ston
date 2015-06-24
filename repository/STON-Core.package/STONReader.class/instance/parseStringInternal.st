@@ -7,4 +7,4 @@ parseStringInternal
   result := self
     stringStreamContents: [ :stream | [ readStream atEnd or: [ readStream peek = delimiter ] ] whileFalse: [ stream nextPut: self parseCharacter ] ].
   self expectChar: delimiter.
-  ^ result convertFromEncoding: #'utf-8'
+  ^ result decodeFromUTF8

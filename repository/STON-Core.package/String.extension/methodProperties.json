@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"decodeFromUTF8" : "dkh 6/24/2015 15:29",
+		"encodeAsUTF8intoString" : "dkh 6/24/2015 15:30",
 		"stonContainSubObjects" : "SvenVanCaekenberghe 11/29/2012 16:27",
-		"stonOn:" : "SvenVanCaekenberghe 1/14/2012 16:22" } }
+		"stonOn:" : "SvenVanCaekenberghe 5/15/2012 09:35:20" } }

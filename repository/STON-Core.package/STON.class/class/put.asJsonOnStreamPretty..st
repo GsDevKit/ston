@@ -1,4 +1,4 @@
-convencience
+convenience
 put: object asJsonOnStreamPretty: stream
 	(self jsonWriter on: stream)
 		prettyPrint: true; 

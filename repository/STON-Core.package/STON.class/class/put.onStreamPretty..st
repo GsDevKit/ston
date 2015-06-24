@@ -1,4 +1,4 @@
-convencience
+convenience
 put: object onStreamPretty: stream
 	(self writer on: stream)
 		prettyPrint: true; 
