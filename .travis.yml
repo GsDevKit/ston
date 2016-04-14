@@ -1,23 +1,21 @@
-language: erlang
+language: smalltalk
+sudo: false
 
-env:
-   - ST=Pharo-2.0
-   - ST=Pharo-3.0
-   - ST=Pharo-4.0
-   - ST=GemStone-2.4.5.3
-   - ST=GemStone-2.4.6
-   - ST=GemStone-3.1.0.6
-   - ST=GemStone-3.2.6
+smalltalk:
+  - Pharo-5.0
+  - Pharo-4.0
+  - Pharo-3.0
+  - GemStone-2.4.8
+  - GemStone-3.1.0.6
+  - GemStone-3.2.14
+  - GemStone-3.3.0
 
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
-   - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
+smalltalk_config: .smalltalk.ston
 
-script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
+os:
+  - linux
+
+cache:
+  directories:
+    - $SMALLTALK_CI_CACHE
 
