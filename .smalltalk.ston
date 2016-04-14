@@ -4,7 +4,6 @@ SmalltalkCISpec {
       #baseline : 'Ston',
       #load : [ 'UTF8', 'Tests' ],
       #directory : 'repository',
-      #onWarningLog : true,
       #platforms : [ #gemstone, #pharo ]
     }
   ]
