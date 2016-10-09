@@ -2,7 +2,7 @@
 	"class" : {
 		"initialize" : "SvenVanCaekenberghe 2/9/2012 16:43",
 		"initializeSTONCharacters" : "SvenVanCaekenberghe 1/14/2012 23:20",
-		"initializeSTONSimpleSymbolCharacters" : "SvenVanCaekenberghe 2/14/2012 17:50",
+		"initializeSTONSimpleSymbolCharacters" : "dkh 10/08/2016 20:03",
 		"isSimpleSymbolChar:" : "SvenVanCaekenberghe 2/14/2012 17:49",
 		"on:" : "SvenVanCaekenberghe 1/14/2012 15:48" },
 	"instance" : {
