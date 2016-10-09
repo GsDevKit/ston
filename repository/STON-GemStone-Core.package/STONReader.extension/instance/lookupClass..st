@@ -1,4 +1,4 @@
-private
+*ston-gemstone-core
 lookupClass: name
 	Smalltalk globals 
 		at: name 
