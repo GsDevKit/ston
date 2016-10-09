@@ -36,7 +36,7 @@ baseline: spec
         package: 'STON-GemStoneCommon-Tests'
           with: [ spec requires: #('STON-Tests') ];
         yourself ].
-  spec for: #'gemstoneBase' do: [ spec
+  spec for: #'gemstone64' do: [ spec
         package: 'STON-Core'
           with: [ spec includes: #('STON-GemStoneBase-Core') ];
         package: 'STON-GemStoneBase-Core'
