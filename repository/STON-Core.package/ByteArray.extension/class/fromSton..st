@@ -1,3 +1,6 @@
 *ston-core
 fromSton: stonReader
-	^ self readHexFrom: stonReader parseListSingleton
+  | singletonString |
+  singletonString := stonReader parseListSingleton.
+  ^ (self new: singletonString size // 2)
+    readHexFrom: singletonString readStream
