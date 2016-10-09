@@ -1,7 +1,6 @@
 private
 stringStreamContents: block
-	stringStream ifNil: [ 
-		stringStream := (String new: 32) writeStream ].
-	stringStream reset.
-	block value: stringStream.
-	^ stringStream contents
+  stringStream ifNil: [ stringStream := WriteStream on: String new ].
+  stringStream reset.
+  block value: stringStream.
+  ^ stringStream contents
