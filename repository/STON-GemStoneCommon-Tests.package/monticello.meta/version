@@ -1,1 +1,1 @@
-(name 'STON-GemStoneCommon-Tests-dkh.1' message 'create the package' id '167217ea-b4b7-4c5f-a377-779be30bd01b' date '10/08/2016' time '20:12:03' author 'dkh' ancestors () stepChildren ())
+(name 'STON-GemStoneCommon-Tests-dkh.2' message 'push tests around a bit' id '99eacd71-1920-4215-928f-948899f47906' date '10/09/2016' time '07:16:31' author 'dkh' ancestors ((name 'STON-GemStoneCommon-Tests-dkh.1' message 'create the package' id '167217ea-b4b7-4c5f-a377-779be30bd01b' date '10/08/2016' time '20:12:03' author 'dkh' ancestors () stepChildren ())) stepChildren ())

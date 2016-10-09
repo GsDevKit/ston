@@ -1,4 +1,4 @@
-*ston-gemstone-tests
+*ston-gemstonecommon-tests
 testGemStoneCollections
   | collections |
   collections := STON listClass
