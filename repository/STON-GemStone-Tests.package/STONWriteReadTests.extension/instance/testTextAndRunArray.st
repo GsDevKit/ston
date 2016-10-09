@@ -1,4 +1,4 @@
-tests
+*ston-gemstone-tests
 testTextAndRunArray
 	| texts |
 	texts := { 
