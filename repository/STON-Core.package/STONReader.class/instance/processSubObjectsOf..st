@@ -1,13 +1,9 @@
 private
 processSubObjectsOf: object
-	stack push: object.
-	[ stack isEmpty ]
-		whileFalse: [ 
-			stack pop
-				stonProcessSubObjects: [ :each | 
-					each isStonReference
-						ifTrue: [ self resolveReference: each ]
-						ifFalse: [ 
-							each stonContainSubObjects
-								ifTrue: [ stack push: each ]
-								ifFalse: [ each ] ] ] ]
+  stack addFirst: object.
+  [ stack isEmpty ]
+    whileFalse: [ stack removeFirst stonProcessSubObjects: [ :each | each isStonReference
+            ifTrue: [ self resolveReference: each ]
+            ifFalse: [ each stonContainSubObjects
+                ifTrue: [ stack addFirst: each ]
+                ifFalse: [ each ] ] ] ]
