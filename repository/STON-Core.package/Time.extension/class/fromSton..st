@@ -1,3 +1,3 @@
 *ston-core
 fromSton: stonReader
-	^ self readFrom: stonReader parseListSingleton readStream
+  ^ self fromString: stonReader parseListSingleton usingFormat: #($: true false)
