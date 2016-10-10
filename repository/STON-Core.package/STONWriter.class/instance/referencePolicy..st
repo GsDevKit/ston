@@ -1,4 +1,5 @@
 initialize-release
 referencePolicy: policy
-	self assert: ( #(#normal #ignore #error) includes: policy ).
-	referencePolicy := policy
+  (#(#'normal' #'ignore' #'error') includes: policy)
+    ifFalse: [ self error: 'Unknown reference policy: ' , policy printString ].
+  referencePolicy := policy

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"readFromFileNamed:" : "SvenVanCaekenberghe 11/29/2012 22:27",
-		"write:toFileNamed:" : "SvenVanCaekenberghe 11/29/2012 22:28" },
-	"instance" : {
-		"testFromString" : "SvenVanCaekenberghe 1/24/2012 09:53",
-		"testPrettyPrinting" : "dkh 11/21/2014 20:34",
-		"testRoomExitCycles" : "SvenVanCaekenberghe 11/29/2012 10:32",
-		"testToString" : "SvenVanCaekenberghe 1/24/2012 09:53" } }

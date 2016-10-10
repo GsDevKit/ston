@@ -1,4 +1,3 @@
 initialize-release
-initialize 
-	super initialize.
-	enabled := true
+initialize
+  enabled := true
