@@ -1,7 +1,8 @@
 private
 isSimpleSymbol: symbol
-	symbol isEmpty ifTrue: [ ^ false ].
-	^ (symbol class 
-		findFirstInString: symbol 
-		inSet: STONSimpleSymbolCharacters 
-		startingAt: 1) = 0
+  symbol isEmpty
+    ifTrue: [ ^ false ].
+  ^ (self class
+    findFirstInString: symbol
+    inSet: STONSimpleSymbolCharacters
+    startingAt: 1) = 0

@@ -1,6 +1,6 @@
 private
 materialize: string
-	^ STON reader
-		on: string readStream;
-		optimizeForLargeStructures;
-		next
+  ^ STON reader
+    on: string readStream;
+    optimizeForLargeStructures;
+    next
