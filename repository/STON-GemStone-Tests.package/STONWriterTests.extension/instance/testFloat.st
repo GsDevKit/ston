@@ -1,4 +1,4 @@
-tests
+*ston-gemstone-tests
 testFloat
   self assert: (self serialize: 1.5) = '1.5'.
   self assert: (self serialize: 0.0) = '0.0'.
