@@ -1,4 +1,4 @@
-*ston-gemstone-tests
+tests
 testFloat
   self assert: (self materialize: '1.5') = 1.5.
   self assert: (self materialize: '-1.5') = -1.5.
