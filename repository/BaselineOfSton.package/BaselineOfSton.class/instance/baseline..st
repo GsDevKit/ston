@@ -51,4 +51,8 @@ baseline: spec
         package: 'STON-GemStone-Core' with: [ spec requires: #('STON-Core') ];
         package: 'STON-Tests' with: [ spec includes: #('STON-GemStone-Tests') ];
         package: 'STON-GemStone-Tests' with: [ spec requires: #('STON-Tests') ];
+        yourself ].
+  spec for: #'gsc2.x' do: [ spec
+        package: 'STON-Core' with: [ spec includes: #('STON-GemStone2x-Core') ];
+        package: 'STON-GemStone2x-Core' with: [ spec requires: 'STON-Core' ];
         yourself ]
