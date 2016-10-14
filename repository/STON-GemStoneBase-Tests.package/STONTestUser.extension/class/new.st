@@ -1,4 +1,4 @@
-*ston-gemstonebase-core
+*ston-gemstonebase-tests
 new
   ^ self basicNew
     initialize;
