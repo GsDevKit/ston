@@ -30,6 +30,10 @@ baseline: spec
         package: 'STON-Tests' with: [ spec includes: #('STON-Pharo-Tests') ];
         package: 'STON-Pharo-Tests' with: [ spec requires: #('STON-Tests') ];
         yourself ].
+  spec for: #(#'pharo.3.x' #'Pharo.4.x.') do: [ spec
+        package: 'STON-Pharo-Tests' with: [ spec includes: 'STON-Pharo3x-Tests']; 
+        package: 'STON-Pharo3x-Tests' with: [ spec requires: 'STON-Pharo-Tests'];
+        yourself ].
   spec for: #'gemstoneCommon' do: [ spec
         package: 'STON-Core'
           with: [ spec includes: #('STON-GemStoneCommon-Core') ];

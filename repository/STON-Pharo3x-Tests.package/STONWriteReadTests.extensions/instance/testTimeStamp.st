@@ -1,4 +1,4 @@
-*ston-pharocompatible-tests
+*ston-pharo3x-tests
 testTimeStamp
   | datesAndTimes |
   datesAndTimes := STON listClass
