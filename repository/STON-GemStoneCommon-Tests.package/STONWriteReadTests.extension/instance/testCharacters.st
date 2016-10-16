@@ -1,4 +1,4 @@
-tests
+*ston-gemstonecommon-tests
 testCharacters
   | characters |
   characters := STON listClass
