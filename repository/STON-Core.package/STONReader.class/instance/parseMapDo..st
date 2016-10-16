@@ -6,7 +6,7 @@ parseMapDo: block
   [ readStream atEnd ] whileFalse: [ | name value |
       name := self parseValue.
       (allowComplexMapKeys
-        or: [ (name isString) or: [ name isNumber ] ])
+        or: [ (name isKindOf: CharacterCollection) or: [ name _isNumber ] ])
         ifFalse: [ self error: 'unexpected property name type' ].
       self expectChar: $:.
       value := self parseValue.

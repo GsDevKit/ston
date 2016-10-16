@@ -1,0 +1,1 @@
+(name 'STON-PharoCompatible-Tests-dkh.1' message 'create STON-PharoCompatible-Tests package for test methods that are common to GemStone and Pharo ... excluding GemStone64 (base) tests' id '277a8ac0-97dc-4a7d-b8c3-5c9ed4b7eb2b' date '10/16/2016' time '07:43:40' author 'dkh' ancestors () stepChildren ())

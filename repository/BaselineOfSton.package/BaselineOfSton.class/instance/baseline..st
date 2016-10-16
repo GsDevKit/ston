@@ -12,6 +12,10 @@ baseline: spec
         group: 'Tests' with: #('STON-Tests');
         yourself ].
   spec for: #(#'pharo' #'gemstone') do: [ spec
+        package: 'STON-Tests'
+          with: [ spec includes: #('STON-PharoCompatible-Tests') ];
+        package: 'STON-PharoCompatible-Tests'
+          with: [ spec requires: #('STON-Tests') ];
         package: 'STON-UTF8-Core' with: [ spec requires: 'STON-Core' ];
         package: 'STON-UTF8-Tests' with: [ spec requires: 'STON-UTF8-Core' ];
         yourself.

@@ -1,6 +1,6 @@
 utilities
 compareFloat: a to: b
-  b _isNumber
+  b isNumber
     ifFalse: [ ^ [ a = b ] ifError: [ false ] ].
   a = 0.0
     ifTrue: [ ^ b abs < 0.0001 ].

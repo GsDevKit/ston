@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
+	"commentStamp" : "SvenVanCaekenberghe 5/29/2012 21:15",
 	"instvars" : [
 		"readStream",
 		"objects",

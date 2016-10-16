@@ -2,4 +2,3 @@
 optimizeForLargeStructures
   "nothing special for GemStone"
 
-  
