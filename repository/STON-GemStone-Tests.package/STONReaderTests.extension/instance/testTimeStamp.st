@@ -1,4 +1,4 @@
-*ston-pharocompatible-tests
+*ston-gemstone-tests
 testTimeStamp
 	| timeStamp |
 	timeStamp := TimeStamp year: 2012 month: 1 day: 1 hour: 6 minute: 30 second: 15 offset: 1 hour.
