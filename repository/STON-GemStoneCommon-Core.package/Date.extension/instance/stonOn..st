@@ -1,4 +1,4 @@
-*ston-core
+*ston-gemstonecommon-core
 stonOn: stonWriter
   "Use an ISO style YYYYMMDD representation"
 
