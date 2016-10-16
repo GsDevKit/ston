@@ -3,7 +3,8 @@ testGemStoneCollections
   | collections |
   collections := STON listClass
     withAll:
-      {(KeyValueDictionary new
+      {#[1 2 3].
+       (KeyValueDictionary new
         at: 1 put: 1;
         at: 2 put: 2;
         yourself)}.
