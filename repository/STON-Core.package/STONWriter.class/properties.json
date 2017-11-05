@@ -5,7 +5,6 @@
 	"classvars" : [
 		"STONCharacters",
 		"STONSimpleSymbolCharacters" ],
-	"commentStamp" : "SvenVanCaekenberghe 4/27/2012 14:08",
 	"instvars" : [
 		"writeStream",
 		"prettyPrint",
