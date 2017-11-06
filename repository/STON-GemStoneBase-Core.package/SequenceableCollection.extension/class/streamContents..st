@@ -1,3 +1,3 @@
-*STON-GemStoneCommon-Core
+*STON-GemStoneBase-Core
 streamContents: blockWithArg
   ^ self new: 100 streamContents: blockWithArg

@@ -1,4 +1,4 @@
-*STON-GemStoneCommon-Core
+*STON-GemStoneBase-Core
 new: newSize streamContents: blockWithArg
   | stream |
   stream := WriteStreamPortable on: (self new: newSize).
