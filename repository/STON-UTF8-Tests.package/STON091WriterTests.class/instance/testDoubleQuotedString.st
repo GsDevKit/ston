@@ -11,9 +11,10 @@ testDoubleQuotedString
       {$".
       $'.
       $\.
+      $/.
       (Character tab).
       (Character cr).
       (Character lf).
       (Character newPage).
       (Character backspace)}.
-  self assert: (self serializeJson: string) = '"\"\''\\\t\r\n\f\b"'
+  self assert: (self serializeJson: string) equals: '"\"''\\/\t\r\n\f\b"'
