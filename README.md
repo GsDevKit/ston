@@ -35,3 +35,4 @@ for details on installing Metacello.*
 
 *Sven Van Caekenberghe* 
 [MIT Licensed](https://github.com/svenvc/ston/blob/master/license.txt)
+
